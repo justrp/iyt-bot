@@ -10,6 +10,18 @@
 * **CORRECT: 7**
 * 10
 * 8
+# anchor_2.yml
+<h3><pre>Этот якорь хорош в использовании на каменистом дне
+
+A) Якорь Кошка (Grapnel anchor)
+B) Якорь Плуг (CQR/Plough type ahcnor)
+C) Якорь Дельта/Кобра (Delta anchor)
+D) Якорь Брюса (Bruce anchor)
+</pre></h3>
+* A
+* B
+* C
+* **CORRECT: D**
 # anchored.yml
 ![anchored.yml](resources/imgs/anchored.png)
 <h3><pre>Что это?
@@ -47,6 +59,18 @@ C) Обходить слева
 * A
 * **CORRECT: B**
 * C
+# anchor_3.yml
+<h3><pre>Этот якорь хорош на сыпучке (ил, песок), но плох на камнях/кораллах. Улучшенная версия Плуга.
+
+A) Якорь Кошка (Grapnel anchor)
+B) Якорь Холла (Hall ahcnor)
+C) Якорь Дельта/Кобра (Delta anchor)
+D) Якорь Данфорта/Матросова (Danforth Anchor)
+</pre></h3>
+* A
+* B
+* **CORRECT: C**
+* D
 # minesweeper_bow.yml
 ![minesweeper_bow.yml](resources/imgs/minesweeper_bow.png)
 <h3><pre>Что это?
@@ -117,6 +141,18 @@ D) C, D
 * 6
 * **CORRECT: 7**
 * 4
+# anchor_1.yml
+<h3><pre>Этот якорь не теряет сцепления при развороте на 360 градусов; удерживает в 4 раза больше груза, чем Адмиралтейский
+
+A) Якорь Данфорта/Матросова (Danforth Anchor)
+B) Якорь Дельта/Кобра (Delta anchor)
+C) Якорь Брюса (Bruce anchor)
+D) Якорь Кошка (Grapnel anchor)
+</pre></h3>
+* **CORRECT: A**
+* B
+* C
+* D
 # constrained_by_draft_bow.yml
 ![constrained_by_draft_bow.yml](resources/imgs/constrained_by_draft_bow.png)
 <h3><pre>Что это?
@@ -206,6 +242,18 @@ D) Буксир, идет направо
 * 9
 * 11
 * **CORRECT: 7**
+# anchor_4.yml
+<h3><pre>Этот якорь очень удобен в хранении (может складываться) и пригоден практически на любых грунтах
+
+A) Якорь Кошка (Grapnel anchor)
+B) Якорь Плуг (CQR/Plough type ahcnor)
+C) Якорь Холла (Hall ahcnor)
+D) Якорь Дельта/Кобра (Delta anchor)
+</pre></h3>
+* **CORRECT: A**
+* B
+* C
+* D
 # fisher_stop.yml
 ![fisher_stop.yml](resources/imgs/fisher_stop.png)
 <h3><pre>Что это?
@@ -238,6 +286,19 @@ A) Два конуса вершинами вниз по вертикали
 B) Цилиндр
 C) Два шара по вертикали
 D) Три шара по вертикали
+</pre></h3>
+* A
+* B
+* **CORRECT: C**
+* D
+# anchor_delta.yml
+![anchor_delta.yml](resources/imgs/delta_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Данфорта/Матросова (Danforth Anchor)
+B) Якорь Брюса (Bruce anchor)
+C) Якорь Дельта/Кобра (Delta anchor)
+D) Якорь Плуг (CQR/Plough type ahcnor)
 </pre></h3>
 * A
 * B
@@ -280,6 +341,19 @@ B) не должно затруднять безопасное движение 
 </pre></h3>
 * A
 * **CORRECT: B**
+# anchor_danforth.yml
+![anchor_danforth.yml](resources/imgs/danforth_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Данфорта/Матросова (Danforth Anchor)
+B) Якорь Дельта/Кобра (Delta anchor)
+C) Якорь Брюса (Bruce anchor)
+D) Якорь Холла (Hall ahcnor)
+</pre></h3>
+* **CORRECT: A**
+* B
+* C
+* D
 # mppss_6.yml
 <h3><pre>Каждое судно должно всегда следовать с безопасной скоростью, с тем чтобы оно могло предпринять надлежащее и эффективное действие для предупреждения столкновения и могло быть остановлено в пределах расстояния, требуемого при существующих обязательствах и условиях.
 
@@ -289,6 +363,19 @@ B) не должно затруднять безопасное движение 
 * **CORRECT: 6**
 * 7
 * 11
+# anchors_fisherman.yml
+![anchors_fisherman.yml](resources/imgs/fisherman_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Брюса (Bruce anchor)
+B) Якорь Данфорта/Матросова (Danforth Anchor)
+C) Адмиралтейский якорь (Fisherman/Admiralty ahcnor)
+D) Якорь Кошка (Grapnel anchor)
+</pre></h3>
+* A
+* B
+* **CORRECT: C**
+* D
 # mppss_12a.yml
 <h3><pre>Согласно правилу 12 (Плавание судов, находящихся на виду друг удруга; Парусные суда), при сближении двух парусных суден так, что возникает опасность столкновения, преимущество имеет судно, у которого
 
@@ -377,6 +464,19 @@ D) Судно, ограниченное в возможности маневри
 </pre></h3>
 * **CORRECT: A**
 * B
+* C
+* D
+# anchor_hall.yml
+![anchor_hall.yml](resources/imgs/hall_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Данфорта/Матросова (Danforth Anchor)
+B) Якорь Холла (Hall ahcnor)
+C) Якорь Дельта/Кобра (Delta anchor)
+D) Якорь Брюса (Bruce anchor)
+</pre></h3>
+* A
+* **CORRECT: B**
 * C
 * D
 # anchor_sign.yml
@@ -482,6 +582,19 @@ D) Минный тральщик, идет на нас
 * Йол
 * **CORRECT: Шлюп**
 * Тендер
+# anchor_plough.yml
+![anchor_plough.yml](resources/imgs/anchor_plough.png)
+<h3><pre>Что это?
+
+A) Якорь Дельта/Кобра (Delta anchor)
+B) Якорь Плуг (CQR/Plough type ahcnor)
+C) Адмиралтейский якорь (Fisherman/Admiralty ahcnor)
+D) Якорь Кошка (Grapnel anchor)
+</pre></h3>
+* A
+* **CORRECT: B**
+* C
+* D
 # aground.yml
 ![aground.yml](resources/imgs/aground.png)
 <h3><pre>Что это?
@@ -647,6 +760,19 @@ D) Тральщик, 50м, идет направо
 * B
 * C
 * D
+# anchor_bruce.yml
+![anchor_bruce.yml](resources/imgs/bruce_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Плуг (CQR/Plough type ahcnor)
+B) Якорь Кошка (Grapnel anchor)
+C) Якорь Дельта/Кобра (Delta anchor)
+D) Якорь Брюса (Bruce anchor)
+</pre></h3>
+* A
+* B
+* C
+* **CORRECT: D**
 # mppss_8d.yml
 <h3><pre>Согласно выдержке из правила 8, эффективность действия, предпринимаемого для предупреждения столкновения,  должна тщательно контролироваться до тех пор, пока..
 
@@ -737,6 +863,19 @@ C) Издать предупредительный сигнал
 * A
 * **CORRECT: B**
 * C
+# anchor_grapnel.yml
+![anchor_grapnel.yml](resources/imgs/grapnel_anchor.png)
+<h3><pre>Что это?
+
+A) Якорь Плуг (CQR/Plough type ahcnor)
+B) Якорь Холла (Hall ahcnor)
+C) Якорь Кошка (Grapnel anchor)
+D) Якорь Дельта/Кобра (Delta anchor)
+</pre></h3>
+* A
+* B
+* **CORRECT: C**
+* D
 # mppss_9f.yml
 <h3><pre>Согласно Правилу 9, судно, приближающееся к изгибу или к такому участку узкого прохода или фарватера, где другие суда могут быть не видны из-за наличия препятствий, должно следовать с особой внимательностью и осторожностью и ...
 
