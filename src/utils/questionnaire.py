@@ -41,7 +41,7 @@ def pick_weighted_question(questions_dir: str = QUESTIONS_DIR, weights: dict[str
             log.debug(f"New lowest {weight=}; {q=}")
             lowest_weight = weight
             chosen_q = q
-    return (chosen_q, _get_question(q))
+    return (chosen_q, _get_question(chosen_q))
 
 
 def get_answer(question_path: str, questions_dir: str = QUESTIONS_DIR) -> str:
