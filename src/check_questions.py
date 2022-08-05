@@ -41,6 +41,10 @@ class TooLongOption(QuestionsCheckError):
     pass
 
 
+class PossibleQuestionRenderError(QuestionsCheckError):
+    """Raised when question text is started/ended with underscore (that could lead to renderring error in telegarm once we update the text)"""
+
+
 # flake8: noqa: C901
 if __name__ == "__main__":
     errors = []
@@ -59,9 +63,11 @@ if __name__ == "__main__":
                     raise TooLongOption()
             if data["correct"] not in data["options"]:
                 raise CorrectOptionsMissmatchError()
+            if data["question"].startswith("_") or data["question"].endswith("_"):
+                raise PossibleQuestionRenderError()
         except Exception:
             exc_type, exc_value, exc_traceback = sys.exc_info()
-            errors.append((q, f"Could not parse - {exc_type} - {traceback.extract_tb(exc_traceback)}"))
+            errors.append((q, f"Could not parse - {exc_type} - {traceback.format_exc()}"))
 
     if len(errors) == 0:
         print("Tests succeeded")
